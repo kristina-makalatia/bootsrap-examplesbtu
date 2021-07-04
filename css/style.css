@@ -1,0 +1,39 @@
+/* section#1 styles */
+.card-size {
+    max-width: 367px;
+    width:100%;
+    height: 410px;
+}
+.image-size {
+    height: 90px;
+}
+.btn-style {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 17%, rgba(23,51,227,1) 69%);
+    border-radius: 36px;
+
+}
+.card-size:nth-child(1),
+.card-size:nth-child(2),
+.card-size:nth-child(3) {
+    margin-bottom: 112px;
+}
+.card-text {
+    height: 130px;
+    background-color: lightblue;
+}
+
+.bg-image {
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-wraper {
+    z-index: 100;
+}
+body {
+    padding-top: 56px;
+}
